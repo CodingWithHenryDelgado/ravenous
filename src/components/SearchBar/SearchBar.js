@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 import './SearchBar.css';
 
@@ -88,7 +87,7 @@ class SearchBar extends React.Component {
             />
           </div>
           <div className="SearchBar-submit">
-            <a onClick={this.handleSearch}>Let's Go</a>
+            <a href="#" onClick={this.handleSearch}>Let's Go</a>
           </div>
         </div>
       );
